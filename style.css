@@ -12,3 +12,27 @@
     justify-content: center;
     align-items: center;
 }
+
+#board{
+    background: linear-gradient(lightgreen , yellow);
+    width: 90vmin;
+    height: 92vmin;
+    border-radius: .5rem ;
+    border: 1px solid snow;
+    display: grid;
+    grid-template-rows: repeat(18,1fr);
+    grid-template-columns: repeat(18,1fr);
+}
+
+.head{
+    background-color: red;
+}
+
+.snake{
+    background-color: rebeccapurple;
+}
+
+.food{ 
+    background-color: blue;
+
+}
