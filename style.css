@@ -13,6 +13,22 @@
     align-items: center;
 }
 
+#scoreBox{
+    position: absolute;
+    top: 9px;
+    right: 200px;
+    font-size: 39px;
+    font-weight: bolder;
+}
+
+#hiscoreBox{
+    position: absolute;
+    top: 59px;
+    right: 140px;
+    font-size: 39px;
+    font-weight: bolder;
+}
+
 #board{
     background: linear-gradient(lightgreen , yellow);
     width: 90vmin;
@@ -25,14 +41,22 @@
 }
 
 .head{
-    background-color: red;
+    background-color: rebeccapurple;
+    border: .25vmin solid red;
+    border-radius: 12px;
+
 }
 
 .snake{
-    background-color: rebeccapurple;
+    background-color: rgb(94, 117, 60);
+    border: .25vmin solid white;
+    border-radius: 20px;
 }
 
 .food{ 
-    background-color: blue;
+    background: linear-gradient(red,orange);
+    border: .25vmin solid black;
+    border-radius: 20px;
+
 
 }
